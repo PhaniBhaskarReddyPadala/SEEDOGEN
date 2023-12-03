@@ -1,0 +1,190 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4CAF50; /* Green background */
+}
+
+/* Header styles */
+header {
+    background-color: black; /* Black header background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #e74c3c; /* Red color for the main heading */
+}
+
+/* Seed styles */
+.seeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.seed {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #fff; /* White seed background */
+}
+
+.seed img {
+    max-width: 100%;
+}
+
+.seed h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.seed p {
+    font-size: 18px;
+    color: #555;
+}
+
+.seed button {
+    background-color: #e67e22; /* Orange for "click to view" button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.seed button:hover {
+    background-color: #e74c3c; /* Red for "click to view" button on hover */
+}
+
+/* Background colors for each seed */
+.seed:nth-child(odd) {
+    background-color: #fff; /* White background for odd seeds */
+}
+
+/* Footer styles */
+footer {
+    background-color: black; /* Black footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4CAF50; /* Green background */
+}
+
+/* Header styles */
+header {
+    background-color: black; /* Black header background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #e74c3c; /* Red color for the main heading */
+}
+
+/* Rewards form styles */
+.rewards-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.rewards-form label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.rewards-form input,
+.rewards-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+}
+
+.rewards-form button {
+    background-color: #e67e22; /* Orange submit button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rewards-form button:hover {
+    background-color: #e74c3c; /* Red submit button on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: black; /* Black footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* Add this to your rewards.css file */
+@keyframes balloonBurst {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        transform: translateY(-100px) scale(1.2);
+    }
+    100% {
+        transform: translateY(-200px) scale(1);
+    }
+}
+
+.balloon-burst {
+    animation: balloonBurst 1s ease-out;
+}

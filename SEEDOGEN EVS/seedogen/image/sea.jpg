@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia Seeds - Seed Store</title>
+    <link rel="stylesheet" href="almonds.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="#">Rewards</a></li>
+            </ul>
+        </nav>
+        <h1>Chia Seeds</h1>
+    </header>
+
+    <section class="product-options">
+        <h2>Product Options</h2>
+        
+        <div class="option">
+            <h3>Price</h3>
+            <p>$3.99 per pack</p>
+        </div>
+        <div class "option">
+            <h3>Discount</h3>
+            <p>5% off for a limited time</p>
+        </div>
+        
+        <div class="option">
+            <h3>Add to Cart</h3>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <h2>Product Details</h2>
+        <img src="chia_seeds.jpg" alt="Chia Seeds">
+        <div class="product-section">
+            <div class="product-uses">
+                <h3>Uses of Chia Seeds for Consumers:</h3>
+                <p>Chia seeds are a versatile and nutritious superfood that can be enjoyed by consumers in various ways. Some common uses include:</p>
+                <ul>
+                    <li>Mixing them with yogurt or oatmeal for a nutritious breakfast</li>
+                    <li>Creating chia seed puddings for a healthy dessert</li>
+                    <li>Adding them to smoothies for an extra boost of fiber and omega-3 fatty acids</li>
+                </ul>
+                
+                <h3>Environmental Benefits of Chia Plants:</h3>
+                <p>Chia plants, Salvia hispanica, are known for their sustainability and adaptability. They require minimal water and are well-suited for arid regions. The cultivation of chia promotes water conservation and supports local agriculture.</p>
+            </div>
+            <div class="product-details">
+                <h3>Details about Chia Seeds</h3>
+                <p>Our chia seeds are sourced from reliable producers. They are renowned for their high nutritional value, including being an excellent source of omega-3 fatty acids, antioxidants, and dietary fiber.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- (Rest of the Chia Seeds page content) -->
+
+    <footer>
+        <p>&copy; 2023 Seed Store</p>
+    </footer>
+</body>
+</html>
